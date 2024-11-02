@@ -3,6 +3,11 @@
 The **Edgeberry Python SDK** lorem ipsum ...
 
 ## Usage
+Install the package
+```
+pip install edgeberry
+```
+Import
 ```python
 from edgeberry import Edgeberry
 edgeberry = Edgeberry()
