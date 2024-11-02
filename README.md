@@ -1,23 +1,22 @@
 ![Edgeberry Banner](https://raw.githubusercontent.com/Edgeberry/.github/main/brand/EdgeBerry_banner_device_software.png)
 
-The **Edgeberry Python SDK** lorem ipsum ...
+The **Edgeberry Python SDK** is a software library to facilitate communication between Python application and the **Edgeberry Device Software**. The Edgeberry Python SDK interacts with the Edgeberry Device Software throught the D-Bus API.
 
 ## Usage
-Install the package
+Install the package using `pip`
 ```sh
 pip install edgeberry
 ```
-Import
+Import the library in your application
 ```python
 from edgeberry import Edgeberry
 edgeberry = Edgeberry()
 ```
-Methods
+Available methods
 ```python
 edgeberry.set_status("level", "message")
 edgeberry.set_application_info("name", "version", "description")
 ```
-
 
 ## License & Collaboration
 **Copyright© 2024 Sanne 'SpuQ' Santens**. The Edgeberry Device Software is licensed under the **MIT License**. The [Rules & Guidelines](https://github.com/Edgeberry/.github/blob/main/brand/Edgeberry_Trademark_Rules_and_Guidelines.md) apply to the usage of the Edgeberry™ brand.
