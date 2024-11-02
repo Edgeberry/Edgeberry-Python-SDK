@@ -1,6 +1,6 @@
 ![Edgeberry Banner](https://raw.githubusercontent.com/Edgeberry/.github/main/brand/Edgeberry_banner_SDK.png)
 
-<img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png" align="right" width="20%"/>
+<img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png" align="right" width="10%"/>
 
 The **Edgeberry Python SDK** is a software library to facilitate communication between Python application and the **Edgeberry Device Software**. The Edgeberry Python SDK interacts with the Edgeberry Device Software throught the D-Bus API.
 
