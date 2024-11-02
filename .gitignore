@@ -3,4 +3,4 @@ __pycache__
 edgeberry/__pycache__
 example.py
 dist/
-edgeberry.*
+edgeberry.egg-info
