@@ -36,7 +36,7 @@ class Edgeberry:
             application_info_json = json.dumps(application_info)
 
             # Call the 'SetApplicationStatus' method on the Edgeberry Core service object
-            return self.edgeberry_core_service.SetApplicationStatus(application_info_json)
+            return self.edgeberry_core_service.SetApplicationInfo(application_info_json)
         
         except Exception as e:
             # Print the error message
