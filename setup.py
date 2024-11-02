@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="edgeberry",
-    version="0.0.1",
+    version="0.0.2",
     author="Sanne 'SpuQ' Santens",
     author_email="sanne.santens@gmail.com",
     description="Python SDK for interfacing applications with Edgeberry",
@@ -12,6 +12,7 @@ setup(
     packages=find_packages(),
     install_requires=[
         "pydbus",   # List dependencies here
+        "PyGObject"
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
