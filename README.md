@@ -4,7 +4,7 @@ The **Edgeberry Python SDK** lorem ipsum ...
 
 ## Usage
 Install the package
-```
+```sh
 pip install edgeberry
 ```
 Import
