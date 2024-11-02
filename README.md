@@ -2,6 +2,18 @@
 
 The **Edgeberry Python SDK** lorem ipsum ...
 
+## Usage
+```
+from edgeberry import Edgeberry
+edgeberry = Edgeberry()
+```
+Methods
+```
+edgeberry.set_status("level", "message")
+edgeberry.set_application_info("name", "version", "description")
+```
+
+
 ## License & Collaboration
 **Copyright© 2024 Sanne 'SpuQ' Santens**. The Edgeberry Device Software is licensed under the **[GNU GPLv3](LICENSE.txt)**. The [Rules & Guidelines](https://github.com/Edgeberry/.github/blob/main/brand/Edgeberry_Trademark_Rules_and_Guidelines.md) apply to the usage of the Edgeberry™ brand.
 
