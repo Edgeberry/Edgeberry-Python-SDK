@@ -3,12 +3,12 @@
 The **Edgeberry Python SDK** lorem ipsum ...
 
 ## Usage
-```
+```python
 from edgeberry import Edgeberry
 edgeberry = Edgeberry()
 ```
 Methods
-```
+```python
 edgeberry.set_status("level", "message")
 edgeberry.set_application_info("name", "version", "description")
 ```
