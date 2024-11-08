@@ -14,12 +14,17 @@ pip install edgeberry
 Import the library in your application
 ```python
 from edgeberry import Edgeberry
+from edgeberry import EdgeberryCloudConnect
+
 edgeberry = Edgeberry()
+cloudConnect = EdgeberryCloudConnect()
 ```
 Available methods
 ```python
 edgeberry.set_status("level", "message")
 edgeberry.set_application_info("name", "version", "description")
+
+cloudConnect.send_message("message")
 ```
 
 ## On-device development
