@@ -11,15 +11,16 @@ Install the package using `pip`
 ```sh
 pip install edgeberry
 ```
-Import the library in your application
+After installation, the `edgeberry` library can be used as follows
 ```python
+# Import the library in your application
 from edgeberry import Edgeberry
 
+# Create the Edgeberry object
 edgeberry = Edgeberry()
-```
-Available methods
-```python
-edgeberry.set_status("level", "message")
+
+# Available methods
+edgeberry.set_status("level", "message")                            # Level can be ok|warning|error|critical
 edgeberry.set_application_info("name", "version", "description")
 ```
 
