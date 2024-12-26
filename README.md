@@ -8,7 +8,7 @@ The **Edgeberry Python SDK** is a software library to facilitate communication b
 
 ## Usage
 Install the package using `pip`
-```sh
+```bash
 pip install edgeberry
 ```
 After installation, the `edgeberry` library can be used as follows
