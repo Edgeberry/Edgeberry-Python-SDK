@@ -23,23 +23,6 @@ edgeberry.set_status("level", "message")
 edgeberry.set_application_info("name", "version", "description")
 ```
 
-## On-device development
-
-Using `Visual Studio Code`, we can remotely develop code on our Edgeberry device using the `Remote-SSH` extension:
-```
-1) Open VSCode
-2) Navigate to 'Extensions' (Ctrl+Shift+x)
-3) Search and install the 'Remote-SSH' extension
-```
-When the extension is installed, connect to the device
-```
-4) View > Command Palette... (Ctrl+Shift+p)
-5) Remote-SSH: Connect to host...
-6) <user>@<host>
-7) <password>
-```
-The VSCode server is automatically installed. Now you can develop directly on the device.
-
 ## License & Collaboration
 **Copyright© 2024 Sanne 'SpuQ' Santens**. The Edgeberry Python SDK is licensed under the **[MIT License](LICENSE.txt)**. The [Rules & Guidelines](https://github.com/Edgeberry/.github/blob/main/brand/Edgeberry_Trademark_Rules_and_Guidelines.md) apply to the usage of the Edgeberry™ brand.
 
